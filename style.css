@@ -1,0 +1,70 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background-color: #a00909d3;
+  font-family: "Outfit", sans-serif;
+  color: #ebebeb;
+}
+
+h1 {
+  margin-top: 1rem;
+  margin-bottom: 0;
+  font-size: 64px;
+  font-weight: 900;
+  position: relative;
+  top: 16px;
+  z-index: 1;
+  pointer-events: none;
+}
+
+
+.container {
+  margin-inline: auto;
+  max-width: 75%;
+}
+
+#tombola {
+  background-color: #d2d4d4;
+  color: #020000;
+  border-radius: 8px;
+  border: 8px solid #8d0202;
+}
+
+.number {
+  display: inline-block;
+  width: 8%;
+  height: 106px;
+  position: relative;
+  border: 1px solid black;
+  border-radius: 50%;
+  text-align: center;
+  vertical-align: middle;
+  margin: 5px;
+  
+}
+
+.number h3 {
+  text-align: center;
+  font-size: 26px;
+  margin: 0;
+  top: 50%;
+  
+}
+
+.selected {
+  border-color: #7a408a;
+  background-color: rgb(97, 18, 18);
+  color: white;
+}
+
+#extract-btn {
+  margin: 30px 0;
+  border-radius: 5px;
+  border: unset;
+  background-color: #020000;
+  color: white;
+  padding: 10px;
+}
